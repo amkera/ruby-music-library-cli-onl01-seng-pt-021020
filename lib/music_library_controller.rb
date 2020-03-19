@@ -1,4 +1,5 @@
 #In command line: touch lib/music_library_controller.rb
+require 'pry'
 class MusicLibraryController 
   
   def initialize(path = "./db/mp3s")
@@ -23,6 +24,8 @@ class MusicLibraryController
   end 
   
   def list_songs
+    binding.pry
+  end 
     
     
   
